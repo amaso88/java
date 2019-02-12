@@ -1,0 +1,41 @@
+
+                                # Java text file reader 
+ 
+
+	## What's it? 
+	--------------
+  
+        java-data-reader is a little program developed with java and built with maven that
+        allows search by two simple criteria in a text file with a custom format
+        and returns the output according to the search criteria to STDOUT
+
+	## Input data Sample, stored in a *.txt file
+	----------------------------------------	
+        F1
+        D Erica Burns,BARCELONA,93654902Y
+        D Lucy Mcgee,LONDON,51011156P
+        F2
+        D Mitchell Newton ; LAS VEGAS ; 25384390-A
+        D Margarita Richards ; NEW YORK ; 09877359-D
+	
+	### Requirements
+	    java jdk 1.8 must be installed
+	
+	## Usage
+        java -jar data-reader.jar {FILE} CITY {CITY_NAME} → Will print the list of names and ID's belonging to people that have been in that city
+        java -jar data-reader.jar {FILE} ID {ID_VALUE} → (ID format example for input: 12345678Z) → Will print the list of cities that this person has been to.
+	
+	## Autor
+	    Maso
+	
+	
+	## The Latest Version
+	---------------------
+        16-01-2019	01:14
+            Initial commit
+        16-01-2019 01:41
+            Updated README file
+	
+	
+		
+	
